@@ -48,7 +48,7 @@ class ProjectOverview extends Component<{}> {
     render() {
         const project = this.props.selected_project;
         return (
-                <Root>
+                <View>
                     <TouchableHighlight onPress={ () => {
                         this.setState({isImageViewVisible : true});
                     }}>
@@ -90,7 +90,7 @@ class ProjectOverview extends Component<{}> {
                             this.setState({ isImageViewVisible: false });
                         }}
                     />
-                </Root>
+                </View>
             );
     }
 }

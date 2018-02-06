@@ -33,11 +33,11 @@ class SubdivisionMap extends Component<{}> {
   render() {
     const project = this.props.selected_project;
     return (
-        <View>
+        <Content>
                 {/* <ImageViewer images={this.props.selected_project.location_map} /> */}
                 <GridGalleryRenderer images={this.props.selected_project.subdivision_map} />
                 <ProjectFooter showHeader={true} />
-        </View>
+        </Content>
     );
   }
 }

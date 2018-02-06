@@ -59,41 +59,32 @@ class Project extends Component<{}> {
     render() {
         return (
             <Root>
-                {/* <ImageBackground
-                    style={{ width : '100%', height : '100%' }}
-                    source={require('./../../assets/images/bg.jpg')}
-                    > */}
-                    <Container>
+                    <ScrollView>
                         <HeaderContainer {...this.props} title={this.props.selected_project.sub_name} subtitle={this.props.selected_project.name} />
-                        <Content >
-                        {/* <Tabs renderTabBar={()=> <ScrollableTab />}> */}
-                        <Tabs renderTabBar={()=> <ScrollableTab />} locked style={{ backgroundColor : '#fff' }}>
-                            <Tab  heading={ <TabHeading style={styles.tabStyle}><Icon name="eye" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Project Over View</Text></TabHeading>}>
-                                {/* <Tab1 /> */}
-                                <ProjectOverview />
-                            </Tab>
-                            <Tab heading={ <TabHeading style={styles.tabStyle}><Icon name="pin" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Location Map</Text></TabHeading>}>
-                                <LocationMap />
-                            </Tab>
-                            <Tab heading={ <TabHeading style={styles.tabStyle}><Icon name="map" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Subdivision Map</Text></TabHeading>}>
-                                <SubdivisionMap />
-                            </Tab>
-                            <Tab heading={ <TabHeading style={styles.tabStyle}><Icon name="list-box" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Amenities</Text></TabHeading>}>
-                                <Amenities images={this.props.selected_project.amenities} />
-                            </Tab>
-                            <Tab heading={ <TabHeading style={styles.tabStyle}><Icon name="home" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Model Homes</Text></TabHeading>}>
-                                <HouseModels  available_house_models={this.props.selected_project.available_house_models} />
-                            </Tab>
-                            <Tab heading={ <TabHeading style={styles.tabStyle}><Icon name="images" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Gallery</Text></TabHeading>}>
-                                <Gallery images={this.props.selected_project.galleries} />
-                            </Tab>
-                            <Tab heading={ <TabHeading style={styles.tabStyle}><Icon name="information-circle" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>More Info</Text></TabHeading>}>
-                                {/* <Tab3 /> */}
-                            </Tab>
-                        </Tabs>
-                        </Content>
-                    </Container>
-                {/* </ImageBackground> */}
+                        <ScrollView>
+                            <Tabs renderTabBar={()=> <ScrollableTab />} tabBarPosition={'top'}  style={{ backgroundColor : '#fff' }}>
+                                <Tab  heading={ <TabHeading style={styles.tabStyle}><Icon ios='ios-eye-outline' android="md-eye" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Project Over View</Text></TabHeading>}>
+                                    {/* <Tab1 /> */}
+                                    <ProjectOverview />
+                                </Tab>
+                                <Tab heading={ <TabHeading style={styles.tabStyle}><Icon ios='ios-pin-outline' android="md-pin" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Location Map</Text></TabHeading>}>
+                                    <LocationMap />
+                                </Tab>
+                                <Tab heading={ <TabHeading style={styles.tabStyle}><Icon ios='ios-map-outline' android="md-map" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Subdivision Map</Text></TabHeading>}>
+                                    <SubdivisionMap />
+                                </Tab>
+                                <Tab heading={ <TabHeading style={styles.tabStyle}><Icon ios='ios-list-box-outline' android="md-list" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Amenities</Text></TabHeading>}>
+                                    <Amenities images={this.props.selected_project.amenities} />
+                                </Tab>
+                                <Tab heading={ <TabHeading style={styles.tabStyle}><Icon ios='ios-home-outline' android="md-home" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Model Homes</Text></TabHeading>}>
+                                    <HouseModels  available_house_models={this.props.selected_project.available_house_models} />
+                                </Tab>
+                                <Tab heading={ <TabHeading style={styles.tabStyle}><Icon ios='ios-images' android="md-images" style={styles.tabIconStyle} /><Text style={styles.tabTextStyle}>Gallery</Text></TabHeading>}>
+                                    <Gallery images={this.props.selected_project.galleries} />
+                                </Tab>
+                            </Tabs>
+                        </ScrollView>
+                    </ScrollView>
             </Root>
         );
     }

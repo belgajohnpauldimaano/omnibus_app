@@ -32,13 +32,11 @@ class Amenities extends Component<{}> {
   render() {
     const {images} = this.props;
     return (
-        <Container>
             <Content>
                 {/* <ImageViewer images={images} /> */}
                 <GridGalleryRenderer images={images} />
                 <ProjectFooter showHeader={true} />
             </Content>
-        </Container>
     );
   }
 }

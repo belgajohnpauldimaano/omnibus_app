@@ -12,7 +12,7 @@ const houseModels = [
 		features  : "2 Storeys, 2 Bedrooms, Living Area, Dining Area, Kitchen, 2 Toilet &amp; Baths",
 		vTour     : "",
 		series    : "easy",
-		previously: "camella"
+		previously: "camella",
 	},
 	{
 		name      : "Greta",
@@ -418,7 +418,16 @@ const houseModels = [
 		features  : "2-Storey Townhouse, 2 Bedrooms, Living Area, Dining Area, Kitchen, Toilet &amp; Bath",
 		vTour     : "https://www.youtube.com/watch?v=hcNZVUnY9DE",
 		series    : "classic",
-		previously: "lessandra"
+		previously: "lessandra",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/reana-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/reana-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/reana-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/reana-3.jpg'), dimensions: { width: 509, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/reana-4.jpg'), dimensions: { width: 509, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/reana-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/reana-6.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Olivia",
@@ -430,7 +439,12 @@ const houseModels = [
 		features  : "2-Storey Townhouse, 3 Bedrooms, Living Area, Dining Area, Kitchen, 2 Toilet &amp; Baths, Balcony, Provision for Carport",
 		vTour     : "https://www.youtube.com/watch?v=hcNZVUnY9DE",
 		series    : "classic",
-		previously: "lessandra"
+		previously: "lessandra",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/olivia-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/olivia-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/olivia-2.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	}
 ]
 

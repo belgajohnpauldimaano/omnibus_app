@@ -59,29 +59,29 @@ class LocationMap extends Component<{}> {
             isImageViewVisible : false
         }
     }
-    renderFooter({title, source}) {
-        return (
-            <View style={styles.footer}>
-                <Text style={styles.footerText}>{title}</Text>
-            </View>
-        );
-    }
-    renderPage = (image, index) => {
-        return (
-                <View key={index}>
-                    <TouchableHighlight  
-                        onPress={() => { 
-                            this.setState({
-                                currentImage : image,
-                                isImageViewVisible : true
-                            });
-                        }}>
-                        <Image style={{ width: BannerWidth, height: BannerHeight, resizeMode : 'cover' }} source={image.source} />
+    // renderFooter({title, source}) {
+    //     return (
+    //         <View style={styles.footer}>
+    //             <Text style={styles.footerText}>{title}</Text>
+    //         </View>
+    //     );
+    // }
+    // renderPage = (image, index) => {
+    //     return (
+    //             <View key={index}>
+    //                 <TouchableHighlight  
+    //                     onPress={() => { 
+    //                         this.setState({
+    //                             currentImage : image,
+    //                             isImageViewVisible : true
+    //                         });
+    //                     }}>
+    //                     <Image style={{ width: BannerWidth, height: BannerHeight, resizeMode : 'cover' }} source={image.source} />
                     
-                    </TouchableHighlight>
-                </View>
-        );
-    }
+    //                 </TouchableHighlight>
+    //             </View>
+    //     );
+    // }
 
     // componentWillUnmount() {
     //       ActionSheet.actionsheetInstance = null;
@@ -90,12 +90,12 @@ class LocationMap extends Component<{}> {
     }
   render() {
     return (
-        <Root>
+        <View>
                 {/* <ImageGallery images={this.props.selected_project.location_map} /> */}
                 {/* <ImageViewer images={images} /> */}
             <ImageViewer images={this.props.selected_project.location_map} />
             <ProjectLocationFooter />
-        </Root>
+        </View>
     );
   }
 }
