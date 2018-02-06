@@ -94,13 +94,14 @@ const projects = [
             ],
             available_house_models : [
               'Reana',
-              'Olivia'
+              'Olivia',
+              'Nina'
             ]
         },
         
           // {id: 2, name : 'Bulakan'},
           // {id: 3, name : 'Malolos'},
-      ]
+      ],
     },
     // {
     //   title: 'Pampanga',

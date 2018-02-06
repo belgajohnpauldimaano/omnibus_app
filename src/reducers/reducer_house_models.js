@@ -13,6 +13,11 @@ const houseModels = [
 		vTour     : "",
 		series    : "easy",
 		previously: "camella",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/bella-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/bella-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/bella-2.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 	{
 		name      : "Greta",
@@ -24,7 +29,12 @@ const houseModels = [
 		features  : "2 Storeys, 5 Bedrooms, Living Area, Dining Area, Kitchen, 3 Toilet &amp; Baths, Balcony, Covered Porch, 2-Car Garage, Provision for Lanai (Rear)",
 		vTour     : "",
 		series    : "easy",
-		previously: ""
+		previously: "",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/greta-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/greta-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/greta-2.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 	{
 		name      : "Freya",
@@ -36,7 +46,11 @@ const houseModels = [
 		features  : "2 Storeys, 5 Bedrooms, Living Area, Dining Area, Kitchen, 3 Toilet &amp; Baths, Balcony, Covered Porch, Carport",
 		vTour     : "",
 		series    : "easy",
-		previously: ""
+		previously: "",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/freya-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/freya-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 	{
 		name      : "Ella",
@@ -48,7 +62,11 @@ const houseModels = [
 		features  : "2 Storeys, 5 Bedrooms, Living Area, Dining Area, Kitchen, 3 Toilet &amp; Baths, Balcony, Firewall, Provision for Carport",
 		vTour     : "",
 		series    : "easy",
-		previously: ""
+		previously: "",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/ella-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/ella-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 	{
 		name      : "Dana",
@@ -72,7 +90,11 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, 2 Toilet &amp; Baths, Balcony, Firewall, Provision for Carport",
 		vTour     : "",
 		series    : "easy",
-		previously: ""
+		previously: "",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/cara-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/cara-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 	{
 		name      : "Mika",
@@ -84,7 +106,12 @@ const houseModels = [
 		features  : "2 Storeys, 2 Bedrooms, Living Area, Dining Area, Kitchen, 1 Toilet &amp; Bath",
 		vTour     : "",
 		series    : "easy",
-		previously: ""
+		previously: "",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/mika-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mika-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mika-2.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 	{
 		name      : "Reva",
@@ -96,7 +123,11 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, 2 Toilet &amp; Baths, Firewall",
 		vTour     : "",
 		series    : "easy",
-		previously: ""
+		previously: "",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/reva-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/reva-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 	{
 		name      : "Mikaela",
@@ -108,7 +139,12 @@ const houseModels = [
 		features  : "2 Storeys, 4 Bedrooms, Living Area, Dining Area, Kitchen, 3 Toilet &amp; Baths",
 		vTour     : "",
 		series    : "easy",
-		previously: ""
+		previously: "",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/mikaela-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mikaela-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mikaela-2.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 	{
 		name      : "Ravena",
@@ -120,7 +156,12 @@ const houseModels = [
 		features  : "2 Storeys, 2 Bedrooms, Living Area, Dining Area, Kitchen, 1 Toilet &amp; Baths",
 		vTour     : "",
 		series    : "easy",
-		previously: ""
+		previously: "",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/ravena-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/ravena-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/ravena-2.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 
 
@@ -136,7 +177,11 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, Service Area, Toilet &amp; Bath, Carport",
 		vTour     : "",
 		series    : "classic",
-		previously: "townhouse"
+		previously: "townhouse",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/aryanna-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/aryanna-1.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Arya",
@@ -148,7 +193,11 @@ const houseModels = [
 		features  : "2 Storeys, 2 Bedrooms, Living Area, Dining Area, Kitchen, Service Area, Toilet &amp; Bath, Carport",
 		vTour     : "",
 		series    : "classic",
-		previously: "townhouse"
+		previously: "townhouse",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/arya-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/arya-1.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	// BUNGALOW
 	{
@@ -161,7 +210,11 @@ const houseModels = [
 		features  : "Bedroom, Living Area, Dining Area, Kitchen, Service Area, Toilet &amp; Bath",
 		vTour     : "",
 		series    : "classic",
-		previously: "bungalow"
+		previously: "bungalow",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/azalea-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/azalea-1.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	// BLANK
 	{
@@ -174,7 +227,11 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, Service Area, 2 Toilet &amp; Baths, Carport and Balcony",
 		vTour     : "",
 		series    : "classic",
-		previously: "blank"
+		previously: "blank",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/gianna_cu-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gianna_cu-1.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Gianna_EU",
@@ -186,7 +243,11 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, Service Area, 2 Toilet &amp; Baths, Carport and Balcony",
 		vTour     : "",
 		series    : "classic",
-		previously: "blank"
+		previously: "blank",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/gianna_eu-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gianna_eu-1.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Gianna_IU",
@@ -198,7 +259,11 @@ const houseModels = [
 		features  : "2 Storeys, 2 Bedrooms, Living Area, Dining Area, Kitchen, Service Area, 2 Toilet &amp; Baths, Carport",
 		vTour     : "",
 		series    : "classic",
-		previously: "blank"
+		previously: "blank",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/gianna_iu-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gianna_iu-1.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	// GRANDE
 	{
@@ -211,7 +276,18 @@ const houseModels = [
 		features  : "2 Storeys, 5 Bedrooms, Living Area, Dining Area, Kitchen, Study Area, 3 Toilet &amp; Baths, 2-Car Garage, Balcony, Covered Porch, Provision for Lanai (Rear)",
 		vTour     : "https://www.youtube.com/watch?v=CVbEfX7dw4E",
 		series    : "classic",
-		previously: "grande"
+		previously: "grande",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/gavina-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gavina-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gavina-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gavina-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gavina-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gavina-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gavina-6.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gavina-7.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/gavina-8.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Fatima",
@@ -223,7 +299,18 @@ const houseModels = [
 		features  : "2 Storeys, 5 Bedrooms, Living Area, Dining Area, Kitchen, Study Area, 3 Toilet &amp; Baths, Balcony, Covered Porch, Carport, Provision for 1-Car Garage (Rear)",
 		vTour     : "https://www.youtube.com/watch?v=aqF5D2_Eqxw",
 		series    : "classic",
-		previously: "grande"
+		previously: "grande",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/fatima-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/fatima-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/fatima-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/fatima-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/fatima-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/fatima-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/fatima-6.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/fatima-7.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/fatima-8.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	// CAMELLA
 	{
@@ -236,7 +323,17 @@ const houseModels = [
 		features  : "2 Storeys, 4 Bedrooms, Living Area, Dining Area, Kitchen, Maid's Room, 2 Toilet &amp; Baths, Master Toilet &amp; Bath, Carport and Balcony",
 		vTour     : "https://www.youtube.com/watch?v=haiKEw39nog",
 		series    : "classic",
-		previously: "camella"
+		previously: "camella",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/elaisa-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/elaisa-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/elaisa-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/elaisa-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/elaisa-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/elaisa-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/elaisa-6.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/elaisa-7.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Drina",
@@ -248,7 +345,18 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, Maid's Room, 2 Toilet &amp; Baths, Master Toilet &amp; Bath, Carport and Balcony",
 		vTour     : "https://www.youtube.com/watch?v=p173FU7vXNg",
 		series    : "classic",
-		previously: "camella"
+		previously: "camella",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/drina-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/drina-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/drina-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/drina-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/drina-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/drina-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/drina-6.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/drina-7.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/drina-8.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Carina",
@@ -260,7 +368,18 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, Maid's Room, 2 Toilet &amp; Baths, Carport and Balcony",
 		vTour     : "",
 		series    : "classic",
-		previously: "camella"
+		previously: "camella",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/carina-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carina-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carina-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carina-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carina-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carina-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carina-6.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carina-7.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carina-8.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Carmela",
@@ -272,7 +391,17 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, 2 Toilet &amp; Baths, Carport and Balcony",
 		vTour     : "https://www.youtube.com/watch?v=R7ovgW1uIh4",
 		series    : "classic",
-		previously: "camella"
+		previously: "camella",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/carmela-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmela-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmela-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmela-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmela-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmela-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmela-6.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmela-7.jpg'), dimensions: { width: 1024, height: 768 }}
+		]
 	},
 	{
 		name      : "Mara",
@@ -284,7 +413,15 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, 2 Toilet &amp; Baths, Provision for Carport and Balcony",
 		vTour     : "https://www.youtube.com/watch?v=SS-5M3Uuuqg",
 		series    : "classic",
-		previously: "camella"
+		previously: "camella",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/mara-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mara-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mara-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mara-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mara-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mara-5.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	// TERRAIN
 	{
@@ -297,7 +434,15 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, Maid's Room, 2 Toilet &amp; Baths, Carport and Balcony",
 		vTour     : "",
 		series    : "classic",
-		previously: "terrain"
+		previously: "terrain",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_dh-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_dh-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_dh-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_dh-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_dh-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_dh-5.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Dorina_UH",
@@ -309,7 +454,16 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, Maid's Room, 2 Toilet &amp; Baths, Carport and Balcony",
 		vTour     : "",
 		series    : "classic",
-		previously: "terrain"
+		previously: "terrain",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_uh-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_uh-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_uh-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_uh-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_uh-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_uh-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/dorina_uh-6.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Carmina_DH",
@@ -321,7 +475,15 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, 2 Toilet &amp; Baths, Carport and Balcony",
 		vTour     : "",
 		series    : "classic",
-		previously: "terrain"
+		previously: "terrain",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_dh-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_dh-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_dh-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_dh-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_dh-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_dh-5.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Carmina_UH",
@@ -333,7 +495,17 @@ const houseModels = [
 		features  : "2 Storeys, 3 Bedrooms, Living Area, Dining Area, Kitchen, 2 Toilet &amp; Baths, Carport and Balcony",
 		vTour     : "",
 		series    : "classic",
-		previously: "terrain"
+		previously: "terrain",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_uh-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_uh-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_uh-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_uh-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_uh-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_uh-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_uh-6.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/carmina_uh-7.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Mariana_DH",
@@ -345,7 +517,16 @@ const houseModels = [
 		features  : "2 Storeys, 2 Bedrooms, Living Area, Dining Area, Kitchen, Toilet &amp; Bath, Carport and Balcony",
 		vTour     : "",
 		series    : "classic",
-		previously: "terrain"
+		previously: "terrain",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_dh-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_dh-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_dh-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_dh-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_dh-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_dh-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_dh-6.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Mariana_UH",
@@ -357,7 +538,16 @@ const houseModels = [
 		features  : "2 Storeys, 2 Bedrooms, Living Area, Dining Area, Kitchen, Toilet &amp; Bath, Carport and Balcony",
 		vTour     : "",
 		series    : "classic",
-		previously: "terrain"
+		previously: "terrain",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_uh-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_uh-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_uh-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_uh-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_uh-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_uh-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/mariana_uh-6.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	// LESSANDRA
 	{
@@ -370,7 +560,16 @@ const houseModels = [
 		features  : "2 Storeys, 2 Bedrooms, Living Area, Dining Area, Kitchen, Toilet &amp; Bath, Provision for Carport and Balcony",
 		vTour     : "https://www.youtube.com/watch?v=eoXohAs0Ugg",
 		series    : "classic",
-		previously: "lessandra"
+		previously: "lessandra",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/marga-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/marga-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/marga-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/marga-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/marga-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/marga-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/marga-6.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Rina",
@@ -382,7 +581,15 @@ const houseModels = [
 		features  : "2-Storeys, 2 Bedrooms, Living Area, Dining Area, Kitchen, Toilet &amp; Bath",
 		vTour     : "https://www.youtube.com/watch?v=qpXNygQqVZ8",
 		series    : "classic",
-		previously: "lessandra"
+		previously: "lessandra",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/rina-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/rina-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/rina-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/rina-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/rina-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/rina-5.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Nina",
@@ -394,7 +601,12 @@ const houseModels = [
 		features  : "2-Storey Townhouse, 3 Bedrooms, Living Area, Dining Area, Kitchen, 2 Toilet &amp; Baths, Provision for Carport",
 		vTour     : "",
 		series    : "classic",
-		previously: "lessandra"
+		previously: "lessandra",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/nina-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/nina-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/nina-2.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Margarita",
@@ -406,7 +618,17 @@ const houseModels = [
 		features  : "2-Storey Townhouse, 2 Bedrooms, Living Area, Dining Area, Kitchen, Toilet &amp; Bath",
 		vTour     : "",
 		series    : "classic",
-		previously: "lessandra"
+		previously: "lessandra",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/margarita-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/margarita-1.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/margarita-2.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/margarita-3.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/margarita-4.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/margarita-5.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/margarita-6.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/margarita-7.jpg'), dimensions: { width: 1024, height: 768 }},
+		]
 	},
 	{
 		name      : "Reana",
