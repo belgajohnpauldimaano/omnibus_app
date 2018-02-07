@@ -1,6 +1,6 @@
 
 import React from "react";
-import { AppRegistry, Image, StatusBar, ImageBackground } from "react-native";
+import { AppRegistry, Image, StatusBar, ImageBackground, Button } from "react-native";
 import { Container, Content, Text, List, ListItem, View, Body, Icon, Right, Separator } from "native-base";
 // import PixAccordion from 'react-native-pixfactory-accordion';
 
@@ -34,6 +34,9 @@ class SideMenuBar extends React.Component {
     return (
       <Animatable.View duration={400} transition="backgroundColor" style={{borderBottomColor : '#ddd', borderBottomWidth : 1, marginBottom : 5, paddingBottom : 8, paddingTop : 8}}>
         <Text style={{color: '#000', fontSize: 16, paddingLeft: '2%'}}>{section.title} <Icon style={{fontSize : 12, position: 'absolute', right:0}} name="arrow-dropdown" /></Text>
+        {/* <Button title={'Click me'} onPress={() => {
+            Linking.openURL('https://www.facebook.com/paulAgleb');
+        }} /> */}
       </Animatable.View>
     );
   }
