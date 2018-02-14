@@ -61,7 +61,7 @@ class HouseModels extends Component<{}> {
                 <CardItem>
                     
                     <ImageBackground source={ahm.images[0].source} style={{ width:'100%', height : 200 }}>
-                        <H1 style={{ color : '#252525', textShadowColor : '#e3e3e3', padding : 10, backgroundColor : 'rgba(0,0,0, 0.25)' }}>{ahm.name}</H1>
+                        <H1 style={{ color : '#fff', textShadowColor : '#e3e3e3', padding : 10, backgroundColor : 'rgba(0,0,0, 0.40)' }}>{ahm.name}</H1>
                     </ImageBackground>
                 </CardItem>
                 <CardItem >
@@ -115,7 +115,7 @@ class HouseModels extends Component<{}> {
                     shareText={""}
                     onDismiss={e => {
                         // don't forgot set state back.
-                        this.setState({ isImageViewVisible: false });
+                        this.setState({ showPhotoViewer: false });
                     }}
                 />
             {/* </Content> */}

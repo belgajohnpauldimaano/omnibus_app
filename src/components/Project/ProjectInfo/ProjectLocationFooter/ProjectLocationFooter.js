@@ -31,11 +31,11 @@ class ProjectLocationFooter extends Component<{}> {
     constructor (props) {
         super(props);
     }
-    renderLocationInfo = () => {
-        const {locations} = this.props.selected_project;
+    renderLocationInfo = (infomations) => {
+        // const {locations} = this.props.selected_project;
 
         return (
-            locations.map((location, index) => {
+            infomations.map((location, index) => {
                 if (location.desc == "") {
                     return;
                 }
@@ -71,9 +71,69 @@ class ProjectLocationFooter extends Component<{}> {
                 festival,
                 locations
             } = this.props.selected_project;
+        const infomations = [
+            {
+                title : 'Commute',
+                desc  : commute
+            },
+            {
+                title : 'Vehicle',
+                desc  : vehicle
+            },
+            {
+                title : 'Major Roads',
+                desc  : road
+            },
+            {
+                title : 'Transportation & Terminals',
+                desc  : terminal + ' ' + transpo
+            },
+            {
+                title : 'Landmarks',
+                desc  : commute
+            },
+            {
+                title : 'Hospitals',
+                desc  : hospital
+            },
+            {
+                title : 'Schools',
+                desc  : school
+            },
+            {
+                title : 'Places of Worship',
+                desc  : church
+            },
+            {
+                title : 'Malls',
+                desc  : mall
+            },
+            {
+                title : 'Supermarkets/WetMarkets',
+                desc  : market
+            },
+            {
+                title : 'Festival',
+                desc  : festival
+            },
+            {
+                title : 'Others',
+                desc  : others
+            },
+        ];
+        
+
+
+
+
+
+
+
+
+
         return (
             <View>
-                {this.renderLocationInfo()}
+                {this.renderLocationInfo(infomations)}
             </View>
         );
     }

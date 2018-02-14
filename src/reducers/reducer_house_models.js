@@ -78,7 +78,11 @@ const houseModels = [
 		features  : "2 Storeys, 4 Bedrooms, Living Area, Dining Area, Kitchen, 3 Toilet &amp; Baths, Balcony, Firewall, Provision for Carport",
 		vTour     : "",
 		series    : "easy",
-		previously: ""
+		previously: "",
+		images 	  : [
+			{id : 1, title : '', source : require('./../assets/images/homes/ella-0.jpg'), dimensions: { width: 1024, height: 768 }},
+			{id : 1, title : '', source : require('./../assets/images/homes/ella-1.jpg'), dimensions: { width: 2000, height: 1250 }},
+		]
 	},
 	{
 		name      : "Cara",
