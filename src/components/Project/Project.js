@@ -59,7 +59,6 @@ class Project extends Component<{}> {
     render() {
         return (
             <Root>
-                    <ScrollView>
                         <HeaderContainer {...this.props} title={this.props.selected_project.sub_name} subtitle={this.props.selected_project.name} />
                         <ScrollView>
                             <Tabs renderTabBar={()=> <ScrollableTab />} tabBarPosition={'top'}  style={{ backgroundColor : '#fff' }}>
@@ -84,7 +83,6 @@ class Project extends Component<{}> {
                                 </Tab>
                             </Tabs>
                         </ScrollView>
-                    </ScrollView>
             </Root>
         );
     }

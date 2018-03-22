@@ -50,7 +50,7 @@ class SideMenuBar extends React.Component {
             renderRow={data => {
               if (data.id == '') {
                 return (
-                  <ListItem style={{padding: -10, margin : -10}}>
+                  <ListItem style={{paddingLeft: -10, margin : -10}} >
                         <Text style={{ fontSize : 11, fontStyle : 'italic', fontWeight : 'bold', color: "#030303",padding: 0, margin : 0 }}>{data.name}</Text>
                   </ListItem>
                 );
@@ -64,6 +64,7 @@ class SideMenuBar extends React.Component {
                         this.props.navigation.navigate('Project')
                     }}
                     icon
+                    noBorder
                     >
                     <Body>
                       <Animatable.Text style={{color: '#000',paddingLeft : 30, paddingTop : 0}} animation={ isActive ? 'bounceIn' : undefined}>{data.name}</Animatable.Text>

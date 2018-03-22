@@ -25,7 +25,9 @@ import {
     Icon,
     Grid,
     Row,
-    Col
+    Col,
+    List,
+    ListItem
 } from "native-base";
 
 import { connect } from 'react-redux'
@@ -54,8 +56,113 @@ class ProjectLocationFooter extends Component<{}> {
                 comm
             } = this.props.selected_project;
         
+        let fb = null,
+            yt = null,
+            tw = null,
+            ig = null,
+            ms = null,
+            em = null;
+        
+        if (fbID)
+        {
+            fb = (
+                <Row>
+                    <Text style={styles.contentBodyStyle}><Icon name="logo-facebook" style={{ color : '#000'  }} /> {fbID}</Text>
+                </Row>
+            )
+        }
+        if (ytCH)
+        {
+            yt = (
+                <Row>
+                    <Text style={styles.contentBodyStyle}><Icon name="logo-youtube" style={{ color : '#000'  }} /> {ytCH}</Text>
+                </Row>
+            )
+        }
+
+        if (microsite)
+        {
+            ms = (
+                <Row>
+                    <Text style={styles.contentBodyStyle}><Icon name="md-globe" style={{ color : '#000'  }} /> {microsite}</Text>
+                </Row>
+            )
+        }
+        if (twID)
+        {
+            tw = (
+                <Row>
+                    <Text style={styles.contentBodyStyle}><Icon name="logo-twitter" style={{ color : '#000'  }} /> {twID}</Text>
+                </Row>
+            )
+        }
+        if (igID)
+        {
+            ig = (
+                <Row>
+                    <Text style={styles.contentBodyStyle}><Icon name="logo-instagram" style={{ color : '#000'  }} /> {igID}</Text>
+                </Row>
+            )
+        }
+        if (email)
+        {
+            em = (
+                <Row>
+                    <Text style={styles.contentBodyStyle}><Icon name={Platform.OS == 'ios' ? "ios-mail" : 'md-mail'} style={{ color : '#000'  }} /> {email}</Text>
+                </Row>
+            )
+        }
+        
+
         return (
             <View>
+                {/* <Content>
+                    <List>
+                        <ListItem itemDivider>
+                            <Text>Launch Date</Text>
+                        </ListItem>                    
+                        <ListItem >
+                            <Text>Aaron Bennet</Text>
+                        </ListItem>
+                        <ListItem>
+                            <Text>Ali Connors</Text>
+                        </ListItem>
+                        <ListItem itemDivider>
+                            <Text>B</Text>
+                        </ListItem>  
+                        <ListItem>
+                            <Text>Bradley Horowitz</Text>
+                        </ListItem>
+                    </List>
+                </Content> */}
+                <List>
+                
+                    <ListItem itemDivider>
+                        <Text style={styles.contentBodyStyle}> Launch Date</Text>
+                    </ListItem>
+                    <ListItem>
+                        <Text style={styles.contentBodyStyle}>{launch}</Text>
+                    </ListItem>
+                    <ListItem itemDivider>
+                            <Text style={styles.contentBodyStyle}>Land Area </Text>
+                    </ListItem>
+                    <ListItem>
+                        <Text style={styles.contentBodyStyle}>{land}</Text>
+                    </ListItem>
+                    <ListItem itemDivider>
+                            <Text style={styles.contentBodyStyle}>Amenities </Text>
+                    </ListItem>
+                    <ListItem>
+                        <Text style={styles.contentBodyStyle}>{amenity}</Text>
+                    </ListItem>
+                    <ListItem itemDivider>
+                            <Text style={styles.contentBodyStyle}>Phases/Enclaves </Text>
+                    </ListItem>
+                    <ListItem>
+                        <Text style={styles.contentBodyStyle}>{phase}</Text>
+                    </ListItem>
+                
+            </List>
                 <Card>
                     {(this.props.showHeader) &&
                         <CardItem  style={styles.headerStyle} header>
@@ -69,10 +176,10 @@ class ProjectLocationFooter extends Component<{}> {
                     }
                     <CardItem  style={styles.bodyStyle} header>
                         <Body>
-                            <Grid>
+                            {/* <Grid>
                                 <Col>
                                     <Row>
-                                        <Text style={styles.contentBodyStyle}>Launch Date : </Text>
+                                        <Text style={styles.contentBodyStyle}> Launch Date: </Text>
                                     </Row>
                                     <Row>
                                             <Text style={styles.contentBodyStyle}>Land Area : </Text>
@@ -98,27 +205,15 @@ class ProjectLocationFooter extends Component<{}> {
                                         <Text style={styles.contentBodyStyle}>{phase}</Text>
                                     </Row>
                                 </Col>
-                            </Grid>
+                            </Grid> */}
                         
                             <Grid style={{ marginTop : 10 }}>
-                                <Row>
-                                    <Text style={styles.contentBodyStyle}><Icon name="logo-facebook" style={{ color : '#000'  }} /> {fbID}</Text>
-                                </Row>
-                                <Row>
-                                <Text style={styles.contentBodyStyle}><Icon name="logo-youtube" style={{ color : '#000'  }} /> {ytCH}</Text>
-                                </Row>
-                                <Row>
-                                <Text style={styles.contentBodyStyle}><Icon name="logo-twitter" style={{ color : '#000'  }} /> {twID}</Text>
-                                </Row>
-                                <Row>
-                                <Text style={styles.contentBodyStyle}><Icon name="md-globe" style={{ color : '#000'  }} /> {microsite}</Text>
-                                </Row>
-                                <Row>
-                                <Text style={styles.contentBodyStyle}><Icon name="logo-instagram" style={{ color : '#000'  }} /> {igID}</Text>
-                                </Row>
-                                <Row>
-                                <Text style={styles.contentBodyStyle}><Icon name={Platform.OS == 'ios' ? "ios-mail" : 'md-mail'} style={{ color : '#000'  }} /> {email}</Text>
-                                </Row>
+                                {fb}
+                                {yt}
+                                {tw}
+                                {ig}
+                                {ms}
+                                {em}
                             </Grid>
                         </Body>
                     </CardItem>
