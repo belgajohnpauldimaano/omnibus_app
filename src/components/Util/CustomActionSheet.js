@@ -5,10 +5,9 @@ import { Container, Header, Title, Left, Icon, Right, Button, Body, Content,Text
 var BUTTONS = [
     { text: "Home", route : 'Home', icon: "home", iconColor: "#2c8ef4" },
     { text: "About Us", route : 'About', icon: "people", iconColor: "#2c8ef4" },
-    { text: "Vista Land",  route : 'About', icon: "analytics", iconColor: "#f42ced" },
-    { text: "Buyer's Guide",  route : 'About', icon: "book", iconColor: "#ea943b" },
-    { text: "Calculator",  route : 'About', icon: "calculator", iconColor: "#fa213b" },
-    { text: "Cancel",  route : 'About', icon: "close", iconColor: "#25de5b" }
+    // { text: "Vista Land",  route : 'About', icon: "analytics", iconColor: "#f42ced" },
+    { text: "Buyer's Guide",  route : 'BuyersGuide', icon: "book", iconColor: "#ea943b" },
+    // { text: "Calculator",  route : 'About', icon: "calculator", iconColor: "#fa213b" },
   ];
   var DESTRUCTIVE_INDEX = 3;
   var CANCEL_INDEX = 5;

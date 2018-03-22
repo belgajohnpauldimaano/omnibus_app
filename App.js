@@ -20,6 +20,7 @@ import { DrawerNavigator, StackNavigator } from "react-navigation";
 import Home from './src/components/Home/Home';
 import About from './src/components/About/About';
 import Project from './src/components/Project/Project';
+import BuyersGuide from './src/components/BuyersGuide/BuyersGuide';
 
 import SubdivisionMapGallery from './src/components/Project/ProjectInfo/SubdivisionMapGallery';
 
@@ -37,6 +38,7 @@ const DrawerConfig = DrawerNavigator(
     Home: { screen: Home },
     About: { screen: About },
     Project: { screen: Project },
+    BuyersGuide : { screen: BuyersGuide },
     SubdivisionMap: { screen: StackNavigatorConfig },
 },
 {

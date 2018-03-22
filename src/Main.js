@@ -18,7 +18,7 @@ import { DrawerNavigator } from "react-navigation";
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Project from './components/Project/Project';
-
+import BuyersGuide from './components/BuyersGuide/BuyersGuide';
 import SideMenuBar from './components/Util/SideMenuBar/SideMenuBar';
 
 const HomeScreenRouter = DrawerNavigator(
@@ -26,6 +26,7 @@ const HomeScreenRouter = DrawerNavigator(
     Home: { screen: Home },
     About: { screen: About },
     Project: { screen: Project },
+    BuyersGuide : { screen: BuyersGuide },
   },
   {
     contentComponent: props => <SideMenuBar {...props} />,

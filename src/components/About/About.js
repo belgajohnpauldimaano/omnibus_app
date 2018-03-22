@@ -10,11 +10,17 @@ import {
     StyleSheet,
     View,
     Image,
+    ImageBackground,
+    Dimensions
 } from 'react-native';
 
-import { DeckSwiper, Thumbnail, Container, Header, Title, Left, Icon, Right, Button, Body, Content,Text, ActionSheet, Card, CardItem, Root } from "native-base";
 
+
+
+import { DeckSwiper, Thumbnail, Container, Header, Title, Left, Icon, Right, Button, Body, Content,Text, ActionSheet, Card, CardItem, Root, H1 } from "native-base";
 import HeaderContainer from './../Util/HeaderContainer/HeaderContainer';
+import ImageViewer from './../Util/ImageViewer/ImageViewer';
+const deviceHeight = Dimensions.get('window').height;
 
 export default class About extends Component<{}> {
     componentWillUnmount() {
@@ -24,11 +30,28 @@ export default class About extends Component<{}> {
     return (
     <Root>
         <Container>
-          <StatusBar
+          {/* <StatusBar
             hidden={true}
-          />
+          /> */}
             <HeaderContainer {...this.props} title={'About'} subtitle={''} />
             <Content padder>
+                {/* <ImageBackground style={{ width:'100%', height : deviceHeight}}>
+                  <Image source={require('./../../assets/images/about/5-point-advantage.jpg')}  style={{ width:'100%', marginTop : 0, height : '100%', resizeMode : 'contain' }}></Image>
+                </ImageBackground> */}
+                <Card>
+                      <View style={{ width:'100%', marginTop : 0, height : '100%' }}>
+                        <ImageViewer images={[
+                          { source : require('./../../assets/images/about/camella-north.jpg'), width : 800, height : 600 }
+                        ]} />
+                      </View>
+                </Card>
+                <Card>
+                      <View style={{ width:'100%', marginTop : 0, height : '100%' }}>
+                        <ImageViewer images={[
+                          { source : require('./../../assets/images/about/5-point-advantage.jpg'), width : 800, height : 600 }
+                        ]} />
+                      </View>
+                </Card>
             </Content>
         </Container>
     </Root>
@@ -38,9 +61,9 @@ export default class About extends Component<{}> {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
+    // alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
   menuButton : {
