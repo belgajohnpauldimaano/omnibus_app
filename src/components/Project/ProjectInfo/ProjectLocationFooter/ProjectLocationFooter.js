@@ -42,7 +42,7 @@ class ProjectLocationFooter extends Component<{}> {
                 return (    
                     <View key={index}>
                         <List>
-                            <ListItem itemDivider style={{backgroundColor:'#dadada'}}>
+                            <ListItem itemDivider style={{backgroundColor:location.bgColor}}>
                                 <Text>{ location.title}</Text>
                             </ListItem>
                             <ListItem>
@@ -74,51 +74,63 @@ class ProjectLocationFooter extends Component<{}> {
         const infomations = [
             {
                 title : 'Commute',
-                desc  : commute
+                desc  : commute,
+                bgColor : '#4af6f9'
             },
             {
                 title : 'Vehicle',
-                desc  : vehicle
+                desc  : vehicle,
+                bgColor : '#75ce10'
             },
             {
                 title : 'Major Roads',
-                desc  : road
+                desc  : road,
+                bgColor : '#f28f26'
             },
             {
                 title : 'Transportation & Terminals',
-                desc  : terminal + ' ' + transpo
+                desc  : terminal + ' ' + transpo,
+                bgColor : '#4af6f9'
             },
             {
                 title : 'Landmarks',
-                desc  : commute
+                desc  : commute,
+                bgColor : '#75ce10'
             },
             {
                 title : 'Hospitals',
-                desc  : hospital
+                desc  : hospital,
+                bgColor : '#f28f26'
             },
             {
                 title : 'Schools',
-                desc  : school
+                desc  : school,
+                bgColor : '#4af6f9'
             },
             {
                 title : 'Places of Worship',
-                desc  : church
+                desc  : church,
+                bgColor : '#75ce10'
             },
             {
                 title : 'Malls',
-                desc  : mall
+                desc  : mall,
+                bgColor : '#f28f26'
             },
             {
                 title : 'Supermarkets/WetMarkets',
-                desc  : market
+                desc  : market,
+                bgColor : '#4af6f9'
             },
             {
                 title : 'Festival',
-                desc  : festival
+                desc  : festival,
+                bgColor : '#75ce10'
             },
             {
                 title : 'Others',
-                desc  : others
+                desc  : others,
+                bgColor : '#f28f26'
             },
         ];
         
